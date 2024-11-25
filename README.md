@@ -53,7 +53,7 @@
 
 ---
 
-### 5단계: Multi-Client Chatting (step4)
+### 5단계: Multi-Client Chatting (chat)
 
 **설명**: 여러 클라이언트가 참여할 수 있는 실시간 채팅 시스템.
 
