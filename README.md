@@ -91,35 +91,35 @@ GUI 기반 채팅 인터페이스 제공(Swing 사용).
 
 **src/**
 
-├── **step1/**                 # PC-to-PC 통신
+├── **step1/**                
 
-│   ├── `MyServer.java`      # 파일 통신 서버
+│   ├── `MyServer.java`      
 
-│   ├── `MyClient.java`      # 파일 통신 클라이언트
+│   ├── `MyClient.java`     
 
-├── **step2/**                 # 단방향 서버-클라이언트 통신
+├── **step2/**                
 
-│   ├── `MyServer2.java`    # 단방향 서버
+│   ├── `MyServer2.java`    
 
-│   ├── `MyClient2.java`    # 데이터 수신 클라이언트
+│   ├── `MyClient2.java`   
 
-├── **step3/**                 # 양방향 통신(1회)
+├── **step3/**                 
 
-│   ├── `MyServer3.java`    # 양방향 통신 서버
+│   ├── `MyServer3.java`    
 
-│   ├── `MyClient3.java`    # 양방향 통신 클라이언트
+│   ├── `MyClient3.java`   
 
-├── **step4/**                 # 실시간 양방향 통신
+├── **step4/**              
 
-│   ├── `TalkServer.java`    # 양방향 통신 서버
+│   ├── `TalkServer.java`    
 
-│   ├── `TalkClient.java`    # 양방향 통신 클라이언트
+│   ├── `TalkClient.java`    
 
-├── **chat/**                 # 다중 사용자 채팅 구현
+├── **chat/**                 
 
-│   ├── `ChatServer.java`    # 다중 사용자 채팅 서버
+│   ├── `ChatServer.java`  
 
-│   ├── `ChatClient.java`    # 다중 사용자 채팅 클라이언트
+│   ├── `ChatClient.java`    
 
-└── `README.md`              # 프로젝트 문서
+└── `README.md`             
 
