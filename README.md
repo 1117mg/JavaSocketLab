@@ -11,9 +11,9 @@
 
 구성 요소:
 
-MyServer.java: 클라이언트로부터 파일 이름을 받아 내용을 반환.
+`MyServer.java`: 클라이언트로부터 파일 이름을 받아 내용을 반환.
 
-MyClient.java: 서버에 파일 이름을 전송하고 내용을 출력.
+`MyClient.java`: 서버에 파일 이름을 전송하고 내용을 출력.
 
 ---
 
@@ -23,9 +23,9 @@ MyClient.java: 서버에 파일 이름을 전송하고 내용을 출력.
 
 구성 요소:
 
-MyServer2.java: 클라이언트와 연결 후 메시지를 전송하는 단방향 서버.
+`MyServer2.java`: 클라이언트와 연결 후 메시지를 전송하는 단방향 서버.
 
-MyClient2.java: 서버로부터 데이터를 수신하고 출력.
+`MyClient2.java`: 서버로부터 데이터를 수신하고 출력.
 
 ---
 
@@ -35,9 +35,9 @@ MyClient2.java: 서버로부터 데이터를 수신하고 출력.
 
 구성 요소:
 
-MyServer3.java: 클라이언트로부터 데이터를 받고 응답을 전송.
+`MyServer3.java`: 클라이언트로부터 데이터를 받고 응답을 전송.
 
-MyClient3.java: 서버에 데이터를 전송하고 응답을 출력.
+`MyClient3.java`: 서버에 데이터를 전송하고 응답을 출력.
 
 ---
 
@@ -47,9 +47,9 @@ MyClient3.java: 서버에 데이터를 전송하고 응답을 출력.
 
 구성 요소:
 
-MyServer4.java: 채팅 서버.
+`MyServer4.java`: 채팅 서버.
 
-MyClient4.java: 채팅 클라이언트.
+`MyClient4.java`: 채팅 클라이언트.
 
 ---
 
@@ -67,22 +67,22 @@ GUI 기반 채팅 인터페이스 제공(Swing 사용).
 
 구성 요소:
 
-ChatServer.java: 멀티스레드 기반의 채팅 서버.
+`ChatServer.java`: 멀티스레드 기반의 채팅 서버.
 
-ChatClient.java: GUI 기반 채팅 클라이언트.
+`ChatClient.java`: GUI 기반 채팅 클라이언트.
 
 
 ---
 
 ## 기술 스택
 
-언어: Java 1.8
+**언어**: Java 1.8
 
-네트워크 통신: TCP 소켓
+**네트워크 통신**: TCP 소켓
 
-GUI: Java Swing
+**GUI**: Java Swing
 
-멀티스레드: 사용자별 Thread 처리
+**멀티스레드**: 사용자별 Thread 처리
 
 
 ---
