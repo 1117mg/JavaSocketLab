@@ -65,7 +65,7 @@
 
 GUI 기반 채팅 인터페이스 제공(Swing 사용).
 
-구성 요소:
+**구성 요소**:
 
 `ChatServer.java`: 멀티스레드 기반의 채팅 서버.
 
@@ -89,33 +89,33 @@ GUI 기반 채팅 인터페이스 제공(Swing 사용).
 
 ## 프로젝트 구조
 
-src/
+**src/**
 
-├── step1/                 # PC-to-PC 통신
+├── **step1/**                 # PC-to-PC 통신
 
 │   ├── `MyServer.java`      # 파일 통신 서버
 
 │   ├── `MyClient.java`      # 파일 통신 클라이언트
 
-├── step2/                 # 단방향 서버-클라이언트 통신
+├── **step2/**                 # 단방향 서버-클라이언트 통신
 
 │   ├── `MyServer2.java`    # 단방향 서버
 
 │   ├── `MyClient2.java`    # 데이터 수신 클라이언트
 
-├── step3/                 # 양방향 통신(1회)
+├── **step3/**                 # 양방향 통신(1회)
 
 │   ├── `MyServer3.java`    # 양방향 통신 서버
 
 │   ├── `MyClient3.java`    # 양방향 통신 클라이언트
 
-├── step4/                 # 실시간 양방향 통신
+├── **step4/**                 # 실시간 양방향 통신
 
 │   ├── `TalkServer.java`    # 양방향 통신 서버
 
 │   ├── `TalkClient.java`    # 양방향 통신 클라이언트
 
-├── chat/                 # 다중 사용자 채팅 구현
+├── **chat/**                 # 다중 사용자 채팅 구현
 
 │   ├── `ChatServer.java`    # 다중 사용자 채팅 서버
 
